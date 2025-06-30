@@ -1,0 +1,49 @@
+{
+    "name": "Story App",
+    "short_name": "Story",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#1e90ff",
+    "icons": [
+        {
+            "src": "/images/icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Add New Story",
+            "short_name": "New Story",
+            "description": "Create a new story",
+            "url": "/#/create",
+            "icons": [
+                {
+                    "src": "/icons/icon-96.png",
+                    "sizes": "96x96",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/images/screenshots/mobile-preview.png",
+            "sizes": "512x904",
+            "type": "image/png",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "/images/screenshots/desktop-preview.png",
+            "sizes": "1920x991",
+            "type": "image/png",
+            "form_factor": "wide"
+        }
+    ]
+}
